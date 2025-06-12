@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./hireme.css">
+  <title>Hire Me</title>
+  <!-- Boxicons (for icons) -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+     <header>
+    <img src="./assests/Logo.svg" alt="Logo" class="logo" />
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-items">About</a></li>
+        <li><a href="#skills" class="nav-items">Skills</a></li>
+        <li><a href="#projects" class="nav-items">Projects</a></li>
+      </ul>
+    </nav>
+    <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+  </header>
+  <section class="hire-section">
+    <h1>Hire Me</h1>
+    <p>Get in touch via phone, email or WhatsApp!</p>
+    
+    <form action="mailto:youremail@example.com" method="POST" enctype="text/plain">
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" placeholder="Tell me what you need..." required></textarea>
+      
+      <button type="submit">Send Email</button>
+    </form>
+
+    <div class="alt-contact">
+      <a href="tel:+234703153635"><i class='bx bx-phone'></i> Call</a>
+      <a href="mailto:lukebestokenu@yahoo.com"><i class='bx bx-envelope'></i> Email</a>
+      <a href="https://wa.me/234703153635" target="_blank"><i class='bx bxl-whatsapp'></i> WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Luke Best | Full Stack Developer</p>
+  </footer>
+</body>
+</html>
